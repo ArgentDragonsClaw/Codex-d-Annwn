@@ -3,7 +3,7 @@ layout: post
 title: "Charge Blast"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, level3, evocation, untested]
+tags: [wizard, level3, evocation, concentration, untested]
 ---
 
 **3rd-level evocation**
@@ -14,7 +14,7 @@ tags: [wizard, level3, evocation, untested]
 
 **Components**:  V, S, M ( A small wooden ring )
 
-**Duration**: Instantaneous (Concentration)
+**Duration**: Instantaneous, Concentration
 
 A crackling orb of force manifests in your open hand. On your turn, you may throw the orb to a point within range. If you lose concentration for any reason, you automatically throw the orb to a point within range. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A target takes 6d6 force damage on a failed save, or half as much damage on a successful one.
 
