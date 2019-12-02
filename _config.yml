@@ -7,7 +7,7 @@ baseurl: "/Codex-d-Annwn" # the subpath of your site, e.g. /blog/
 url: "https://argentdragonsclaw.github.io" # the base hostname & protocol for your site
 source-url: "https://github.com/ArgentDragonsClaw/Codex-d-Annwn/"
 permalink: "/:categories/:title"
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'oldposts/]
 
 # Build settings
 markdown: kramdown
