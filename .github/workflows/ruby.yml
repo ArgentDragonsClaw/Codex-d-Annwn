@@ -16,4 +16,9 @@ jobs:
     - name: Build and test with Rake
       run: |
         gem install rake
+        gem install rdoc
+        gem install date
+        gem install tmpdir
+        gem install jekyll
+        gem install shellwords
         rake
