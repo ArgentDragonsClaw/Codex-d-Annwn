@@ -12,7 +12,7 @@ tags: [wizard, level3, evocation, untested]
 
 **Range**: 150 ft
 
-**Components**:  V, S, M ( ? )
+**Components**:  V, S, M ( A small wooden ring )
 
 **Duration**: Instantaneous (Concentration)
 
