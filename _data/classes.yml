@@ -1,16 +1,4 @@
-- name: Bard
-  tag: bard
 - name: Cleric
-  tag: cleric
-- name: Druid
-  tag: druid
-- name: Paladin
-  tag: paladin
-- name: Ranger
-  tag: ranger
-- name: Sorcerer
-  tag: sorcerer
-- name: Warlock
-  tag: warlock
+  tag: cleric 
 - name: Wizard
   tag: wizard
