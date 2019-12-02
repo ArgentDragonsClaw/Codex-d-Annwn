@@ -15,10 +15,5 @@ jobs:
         ruby-version: 2.6.x
     - name: Build and test with Rake
       run: |
-        gem install rake
-        gem install rdoc
-        gem install date
-        gem install tmpdir
-        gem install jekyll
-        gem install shellwords
+        gem install rake rdoc date jekyll shellwords
         rake
