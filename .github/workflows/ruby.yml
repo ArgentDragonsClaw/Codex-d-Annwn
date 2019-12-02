@@ -15,6 +15,13 @@ jobs:
         ruby-version: 2.6.x
     - name: Build and test with Rake
       run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
-        bundle exec rake
+        gem install rake
+        gem install rubygems 
+        gem install rake
+        gem install  rdoc
+        gem install  date
+        gem install  yaml
+        gem install  tmpdir
+        gem install  jekyll
+        gem install  shellwords
+        rake
