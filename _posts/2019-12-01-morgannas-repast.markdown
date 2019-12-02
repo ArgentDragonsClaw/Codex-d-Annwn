@@ -6,7 +6,7 @@ sources: [CDA.0]
 tags: [wizard, level1, conjuration, ritual, untested]
 ---
 
-**1st-level conjuration**
+**1st-level conjuration (ritual)**
 
 **Casting Time**: 1 action
 
