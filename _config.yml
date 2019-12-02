@@ -1,11 +1,11 @@
 # Site settings
-title: "The Grimoire"
-author: "Saph, thebombzen"
+title: "The Codex d'Annwn"
+author: "Argent"
 description:
-  "A searchable D&D 5e spell list, sorted by class and level."
-baseurl: "/grimoire" # the subpath of your site, e.g. /blog/
-url: "https://thebombzen.com" # the base hostname & protocol for your site
-source-url: "https://github.com/thebombzen/grimoire/"
+  "A searchable D&D 5e homebrew spell list, sorted by class and level."
+baseurl: "/Codex-d-Annwn" # the subpath of your site, e.g. /blog/
+url: "https://argentdragonsclaw.github.io" # the base hostname & protocol for your site
+source-url: "https://github.com/ArgentDragonsClaw/Codex-d-Annwn/"
 permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
