@@ -25,3 +25,5 @@ Immediately after casting this spell, your HP drops to 0, but you remain conscio
 The creature is intelligent and can act on its own; however, you may issue mental orders to the creature if it is within 60 feet of you as a bonus action, and it will prioritize these orders. If you die, the creature remains alive and will act on any orders it had remaining before becoming free. Bound creatures are highly devoted, and may continue to act in the benefit of their deceased master.
 
 Casting this spell on a creature you animated with this spell will reset its Int, Wis, Cha, and proficiency modifiers. You may have at most one bound creature created with this spell.
+
+**Most Similar Spell**: [*animate dead*](https://thebombzen.com/grimoire/spells/animate-dead)

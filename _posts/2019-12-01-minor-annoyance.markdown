@@ -25,3 +25,5 @@ Causes a simple effect that's mildly annoying. Can target a creature, object, or
 * An intense awareness of one's own tongue
 
 This spell's base duration is up to one minute, and can be cancelled by the caster at any time. This increases to 10 minutes at 5th level, an hour at 11th level, and a day at 17th level.
+
+**Most Similar Spell**: [*prestidigitation*](https://thebombzen.com/grimoire/spells/prestidigitation)
