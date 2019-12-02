@@ -1,21 +1,18 @@
-# Grimoire
+# Codex d'Annwn
 
-Grimoire is a mobile-friendly 5e spellbook that organizes spell lists by class and level.
+The Codex d-Annwn is a mobile-friendly 5e spellbook that organizes a set of homebrew spells.
 
-See the latest compiled build here: [https://thebombzen.com/grimoire/](https://thebombzen.com/grimoire/)
+See the latest compiled build [here](https://argentdragonsclaw.github.io/Codex-d-Annwn/). 
 
-Grimoire is forked from [ephe/grimoire](https://github.com/ephe/grimoire/), which has since been taken down (à la DMCA).
+Grimoire is forked from [https://thebombzen.com/grimoire/](https://thebombzen.com/grimoire/).
 
-## Contributing
-Feel free to open pull requests or issues on Github for any defects or suggested enhancements you may find. Alternatively, join my public discord at [https://discord.gg/gbykrG2](https://discord.gg/gbykrG2) and chat with me in `#software-dev-stuff`.
 
-If you'd like to submit a Pull Request or somehow contribute code, I recommend you read the [Style Guidelines](https://github.com/thebombzen/grimoire/blob/master/style-guidelines.md). If your submissions do not match this style I'll probably request changes rather than merge it. 
 
 ## Changelog
-* See the commit history. The Grimoire is "done" at this point in that all the spells have been added (as of mid-to-late 2016).
+* Initial commit for the Codex
 
 ## To Do
-* Find a real home for class specializations (e.g. cleric's domains). Currently, to view spells available to a tempest cleric, one must do a tag search for: cleric | cleric (tempest). This is ulgy and needs fixing.
+* Most spells
 
 ## Structure
 Spells can be found inside `_posts/`. Each spell gets its own post, written and stored as a [Markdown](https://daringfireball.net/projects/markdown/basics) file. The date is arbitrary and never displayed, but still necessary for [Jekyll](https://jekyllrb.com) to process the posts properly.
@@ -31,10 +28,4 @@ I've edited _config.yml for my own build purposes, but if you've got [Jekyll](ht
 
 ## Thanks
 
-Cleric and wizard spells from the Starter Kit were seeded from [this Reddit post](https://www.reddit.com/r/DnD/comments/2a7wau/5e_cleric_and_wizard_spells_sorted_by_level/).
-
-Thanks to [@sethxd](https://github.com/sethxd/) for suggesting [Jets.js](https://jets.js.org/), a CSS search engine that plays nicely with Jekyll.
-
-Thanks to [@ephe](https://github.com/ephe/) for writing the original version of this thing in the first place.
-
-Thanks to [@Eikrem63](https://github.com/Eikrem63) and [@duatharben](https://github.com/duatharben) for adding the spells from Xanathar's Guide to Everything. 
+Thanks to [@thebombzen](https://github.com/thebombzen/) for writing the fork, and [@ephe](https://github.com/ephe/) for writing the original version of this thing in the first place.
