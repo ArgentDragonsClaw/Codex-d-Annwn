@@ -16,8 +16,6 @@ jobs:
     - name: Build and test with Rake
       run: |
         gem install rake
-        gem install rubygems 
-        gem install rake
         gem install  rdoc
         gem install  date
         gem install  yaml
