@@ -12,7 +12,7 @@ tags: [wizard, level1, abjuration, untested]
 
 **Range**: Touch
 
-**Components**: V, S, M (a pinch of bone dust)
+**Components**: V, S
 
 **Duration**: 8 Hours
 
