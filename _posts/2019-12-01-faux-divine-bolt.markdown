@@ -3,7 +3,7 @@ layout: post
 title: "Faux-Divine Bolt"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, cantrip, evocation, untested]
+tags: [wizard, cantrip, evocation]
 ---
 
 **Evocation cantrip**

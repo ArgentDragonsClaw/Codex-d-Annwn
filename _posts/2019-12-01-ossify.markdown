@@ -3,7 +3,7 @@ layout: post
 title: "Ossify"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, level1, necromancy, untested]
+tags: [wizard, level1, necromancy]
 ---
 
 **1st-level necromancy**
