@@ -26,4 +26,4 @@ The creature is intelligent and can act on its own; however, you may issue menta
 
 Casting this spell on a creature you animated with this spell will reset its Int, Wis, Cha, and proficiency modifiers. You may have at most one bound creature created with this spell.
 
-**Most Similar Spell**: [*animate dead*](https://thebombzen.com/grimoire/spells/animate-dead)
+**Most Similar Spell(s)**: [*animate dead*](https://thebombzen.com/grimoire/spells/animate-dead)

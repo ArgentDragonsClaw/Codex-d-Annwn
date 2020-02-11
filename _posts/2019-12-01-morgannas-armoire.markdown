@@ -20,4 +20,4 @@ You create an ornate mahogany door that, when opened, leads to an extradimension
 
 If an outfit is ruined beyond repair or lost, it disappates into mist, and the creature is no longer considered to have that outfit. Attempting to sell or otherwise make money off the clothes also causes them to disappate into mist.
 
-**Most Similar Spell**: N/A
+**Most Similar Spell(s)**: N/A

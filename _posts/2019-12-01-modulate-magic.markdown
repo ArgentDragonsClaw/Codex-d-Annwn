@@ -36,4 +36,4 @@ This spell improves at 5th, 11th, and 17th levels as follows:
   * You may ignore up to four creatures in area spells.
   * When condensing a spell, the damage is as if the spell was casted at one level higher.
   
-**Most Similar Spell**: N/A
+**Most Similar Spell(s)**: N/A

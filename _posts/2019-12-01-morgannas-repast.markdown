@@ -20,4 +20,4 @@ You create a meal (with optional drink) and the necessary glasses, plates, and s
 
 The specific meals and drinks are limited only to the caster's knowledge of their existence.
 
-**Most Similar Spell**: N/A
+**Most Similar Spell(s)**: N/A

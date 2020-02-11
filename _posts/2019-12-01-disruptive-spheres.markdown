@@ -20,4 +20,4 @@ You create three slightly shimmering spheres of energy. Make a ranged spell atta
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more sphere and the DC increases by 1 for each slot level above 1st.
 
-**Most Similar Spell**: [*magic missile*](https://thebombzen.com/grimoire/spells/magic-missile)
+**Most Similar Spell(s)**: [*magic missile*](https://thebombzen.com/grimoire/spells/magic-missile)

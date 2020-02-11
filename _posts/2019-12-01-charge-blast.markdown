@@ -23,4 +23,4 @@ For every round you maintain concentration on *charge blast*, increase the damag
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the base damage increases by 1d6 for each slot level above 3rd.
 
 
-**Most Similar Spell**: [*fireball*](https://thebombzen.com/grimoire/spells/fireball)
+**Most Similar Spell(s)**: [*fireball*](https://thebombzen.com/grimoire/spells/fireball)
