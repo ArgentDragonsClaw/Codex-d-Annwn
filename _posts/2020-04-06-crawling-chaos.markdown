@@ -18,6 +18,6 @@ tags: [wizard, cantrip, conjuration, proposed, wild]
 
 You release a wave of chaos that burrows through the air around you. Each creature in range, other than you, must make an Intelligence saving throw or take 1d4 psychic damage.
 
-The spell's damage increases by 1d6 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+The spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
 **Most Similar Spell(s)**: [*sword burst*](https://thebombzen.com/grimoire/spells/sword-burst)
