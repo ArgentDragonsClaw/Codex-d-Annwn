@@ -3,7 +3,7 @@ layout: post
 title: "Ifan's Sanguine Aura"
 date: 2020-01-19
 sources: [CDA.0]
-tags: [wizard, level2, enchantment, untested]
+tags: [wizard, level2, enchantment, proposed, arcane]
 ---
 
 **2nd-level enchantment**

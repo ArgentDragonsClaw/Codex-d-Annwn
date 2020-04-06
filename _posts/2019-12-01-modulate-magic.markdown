@@ -3,7 +3,7 @@ layout: post
 title: "Modulate Magic"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, cantrip, enchantment, concentration, untested]
+tags: [wizard, cantrip, enchantment, concentration, untested, arcane]
 ---
 
 **Enchantment cantrip**
@@ -23,7 +23,7 @@ You make on-the-fly adjustments to your casting process to change the form of ot
 
 This spell improves at 5th, 11th, and 17th levels as follows:
 * 5th level
-  * Add Lightning and Acid to the damage types. 
+  * Add Lightning and Acid to the damage types.
   * You may ignore up to two creatures in area spells.
   * You may choose not to condense a spell while *modulate magic* is in effect.
 * 11th level
@@ -35,5 +35,5 @@ This spell improves at 5th, 11th, and 17th levels as follows:
   * Add Radiant and Necrotic to the damage types.
   * You may ignore up to four creatures in area spells.
   * When condensing a spell, the damage is as if the spell was casted at one level higher.
-  
+
 **Most Similar Spell(s)**: N/A

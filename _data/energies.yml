@@ -1,0 +1,15 @@
+- name: Arcane
+  tag: arcane
+  desc: The magic born of willpower
+- name: Bardic
+  tag: bardic
+  desc: The magic inherent in words and communication
+- name: Divine
+  tag: divine
+  desc: The magic born of faith
+- name: Druidic
+  tag: druidic
+  desc: The magic suffused within the natural world
+- name: Wild
+  tag: wild
+  desc: The magic of chaos

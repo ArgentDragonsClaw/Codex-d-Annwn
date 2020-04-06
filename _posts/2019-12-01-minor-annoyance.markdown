@@ -3,7 +3,7 @@ layout: post
 title: "Minor Annoyance"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, cantrip, enchantment, untested]
+tags: [wizard, cantrip, enchantment, finalized, arcane]
 ---
 
 **Enchantment cantrip**

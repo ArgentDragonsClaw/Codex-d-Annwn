@@ -12,13 +12,26 @@
       </a>
 
       <div id="menu" class="trigger">
+        <b>By Class:</b>
         {% for spellClass in site.data.classes %}
           <a class="page-link" href="{{site.baseurl}}/tags/{{spellClass.tag}}.html">{{ spellClass.name }}</a>
         {% endfor %}
       </div>
+      <div id="menu" class="trigger">
+        <b>By Progress:</b>
+        {% for progress in site.data.progress %}
+          <a class="page-link" href="{{site.baseurl}}/tags/{{progress.tag}}.html" title = "{{progress.desc}}">{{ progress.name }}</a>
+        {% endfor %}
+      </div>
+      <div id="menu" class="trigger">
+        <b>By Energy:</b>
+        {% for energy in site.data.energies %}
+          <a class="page-link" href="{{site.baseurl}}/tags/{{energy.tag}}.html" title = "{{energy.desc}}">{{ energy.name }}</a>
+        {% endfor %}
+      </div>
+
     </nav>
 
   </div>
 
 </header>
-

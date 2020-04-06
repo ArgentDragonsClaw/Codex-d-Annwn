@@ -3,7 +3,7 @@ layout: post
 title: "Tabit's Mending Melody"
 date: 2020-01-19
 sources: [CDA.0]
-tags: [wizard, level2, evocation, untested]
+tags: [wizard, level2, evocation, proposed, bardic]
 ---
 
 **2nd-level evocation**

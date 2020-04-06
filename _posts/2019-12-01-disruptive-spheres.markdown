@@ -3,7 +3,7 @@ layout: post
 title: "Disruptive Spheres"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, level1, evocation, untested]
+tags: [wizard, level1, evocation, untested, arcane]
 ---
 
 **1st-level evocation**

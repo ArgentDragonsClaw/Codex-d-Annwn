@@ -3,7 +3,7 @@ layout: post
 title: "Thorns of the Blood Rose"
 date: 2020-01-19
 sources: [CDA.0]
-tags: [wizard, level1, conjuration, untested]
+tags: [wizard, level1, conjuration, tested, druidic]
 ---
 
 **1st-level conjuration**

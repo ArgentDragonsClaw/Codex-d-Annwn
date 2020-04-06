@@ -3,7 +3,7 @@ layout: post
 title: "Grave Warden's Mantle"
 date: 2020-01-19
 sources: [CDA.0]
-tags: [wizard, level1, abjuration, untested]
+tags: [wizard, level1, abjuration, untested, arcane]
 ---
 
 **1st-level abjuration**

@@ -3,7 +3,7 @@ layout: post
 title: "Morganna's Repast"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, level1, conjuration, ritual]
+tags: [wizard, level1, conjuration, ritual, tested, arcane]
 ---
 
 **1st-level conjuration (ritual)**

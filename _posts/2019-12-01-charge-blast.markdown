@@ -3,7 +3,7 @@ layout: post
 title: "Charge Blast"
 date: 2019-12-01
 sources: [CDA.0]
-tags: [wizard, level3, evocation, concentration, untested]
+tags: [wizard, level3, evocation, concentration, untested, arcane]
 ---
 
 **3rd-level evocation**
