@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Chorus of The Cosmos</title>
+    <meta name="description" content="A searchable D&D 5e homebrew spell list, sorted by class and level.">
+	<link rel="icon" href="/Codex-d-Annwn/images/calibre-viewer.png">
+    <link rel="stylesheet" href="/Codex-d-Annwn/css/main.css">
+    <link rel="canonical" href="https://argentdragonsclaw.github.io/Codex-d-Annwn/chorus">
+    <meta property="og:title" content="The Codex d'Annwn">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://argentdragonsclaw.github.io/Codex-d-Annwn">
+    <meta property="og:description" content="Chorus of The Cosmos - The Codex d'Annwn - A searchable D&D 5e homebrew spell list, sorted by class and level.">
+    <meta property="og:image" content="/Codex-d-Annwn/images/calibre-viewer.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:image:alt" content="A book with a magnifying glass">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.14.0/jets.min.js"></script>
+    <script type="text/javascript">
+    	function menuClick() {
+    		if ( document.getElementById("menu").className.match(/(?:^|\s)show(?!\S)/) ) {
+    			document.getElementById("menu").className = document.getElementById("menu").className.replace ( /(?:^|\s)show(?!\S)/g , '' )
+    		}
+    		else {
+    			document.getElementById("menu").className += " show";
+    		}
+    		if ( document.getElementById("menu2").className.match(/(?:^|\s)show(?!\S)/) ) {
+    			document.getElementById("menu2").className = document.getElementById("menu2").className.replace ( /(?:^|\s)show(?!\S)/g , '' )
+    		}
+    		else {
+    			document.getElementById("menu2").className += " show";
+    		}
+  		}
+
+  		window.onload = function(){
+        document.getElementById("menuIcon").addEventListener( 'click' , menuClick );
+	    }
+    </script>
+    <script src="/Codex-d-Annwn/js/search-common.js"></script>
+    <script src="/Codex-d-Annwn/js/tagsearch.js"></script>
+    <script src="/Codex-d-Annwn/js/sourcesearch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
+    <script>
+        WebFont.load({
+            custom: {
+                families: ['Linux Libertine', 'Linux Libertine Display'],
+                urls: ['/fonts/libertine/linux-libertine/linux-libertine.css']
+            }
+        });
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <a id="top"></a>
+  <div class="wrapper">
+    <nav class="site-nav">
+      <a class="site-title" href="/Codex-d-Annwn/">The Codex d'Annwn</a>
+      <a href="#" id="menuIcon" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div id="menu" class="trigger">
+        <b>By Class:</b>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/cleric.html">Cleric</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/wizard.html">Wizard</a>
+        
+      </div>
+      <div id="menu" class="trigger">
+        <b>By Progress:</b>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/proposed.html" title = "Needs DM approval">Proposed</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/untested.html" title = "In game, needs usage">Untested</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/tested.html" title = "In game, has been used">Tested</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/finalized.html" title = "Final form, changes unlikely">Finalized</a>
+        
+      </div>
+      <div id="menu" class="trigger">
+        <b>By Energy:</b>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/arcane.html" title = "The magic born of willpower">Arcane</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/bardic.html" title = "The magic inherent in words and communication">Bardic</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/divine.html" title = "The magic born of faith">Divine</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/druidic.html" title = "The magic suffused within the natural world">Druidic</a>
+        
+          <a class="page-link" href="/Codex-d-Annwn/tags/wild.html" title = "The magic of chaos">Wild</a>
+        
+      </div>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Chorus of The Cosmos</h1>
+  </header>
+
+  <article class="post-content">
+    <p><span style="color: gray"> <em>penned by Morganna d’Anwwn</em> </span></p>
+
+<h1 id="prelude">Prelude</h1>
+
+<p>The following hypothesis makes use of various knowledge collected in research conducted both by myself, and that conducted by my father, Ifan d’Anwwn. As such, there may be some concepts that need additional explanation. As specific concepts come to light as needing such elucidation, appendixes may be added to this hypothesis.</p>
+
+<h1 id="background">Background</h1>
+
+<p>The core of this hypothesis stems from the <strong>Axiomatic Hypothesis</strong>:</p>
+<blockquote>
+  <p>All types of magic are equivalent at their core, derived from a base magic.</p>
+</blockquote>
+
+<p>Of course, the standard understanding of Magic divides it into two categories: <em>arcane</em> and <em>divine</em>. However, for my purposes, these divisions are incomplete. As such, I propose the following divisions:</p>
+<ul>
+  <li><em>arcane</em>: The magic born of willpower</li>
+  <li><em>bardic</em>: The magic inherent in words and communication</li>
+  <li><em>divine</em>: The magic born of faith</li>
+  <li><em>druidic</em>: The magic suffused within the natural world</li>
+  <li><em>wild</em>: The magic of chaos</li>
+</ul>
+
+<p>The widly known set of eight schools will suffice.</p>
+
+<h1 id="hypothesis">Hypothesis</h1>
+
+<p>The hypothesis, henceforth referred to as the <strong>Chorus Hypothesis</strong>, is as follows:</p>
+<blockquote>
+  <p>All types of magic are modulations of the base magic.</p>
+</blockquote>
+
+<p>An obvious corellary:</p>
+<blockquote>
+  <p>It is impossible to utilize the base magic without modulation.</p>
+</blockquote>
+
+<p>To begin examining the <abbr title="Chorus Hypothesis">CH</abbr>, consider music<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>. When an instrument plays different notes, we still consider those notes to be ‘part’ of the music, defining them by their pitch. However, as shown by certain instruments, it is possible to slide between these notes, so they can also be considered a single thing.</p>
+
+<p>It is my belief that magic operates under a similar concept. Take the previously defined divisions as individual notes, and the base magic as the underlying essence. This is why overlap exists between different divisions, such as spells like <a href="https://thebombzen.com/grimoire/spells/earth-tremor"><em>earth tremor</em></a>.</p>
+
+<p>What, then, of the schools of magic? If we consider the divisions as notes, the schools become ‘what’ one plays, namely the instruments. Different schools of magic exist, using the same ‘notes’ to produce different effects, an evocation spell using arcane magic will produce different effects than an illusion spell using the same arcane magic.</p>
+
+<h1 id="moving-forward">Moving Forward</h1>
+
+<p>Currently, this hypothesis is untested, but I believe it may hold merit based on my own experiments into replication of divine magic through arcane magic. My intent is to continue exploration into the modulation of magic, to determine if the <abbr title="Chorus Hypothesis">CH</abbr> is capable of holding water.
+I have speculation regarding methods of doing so, but will not discuss them here.</p>
+
+<p>— Morganna d’Anwwn</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I will profess to having little scholarly understanding of the craft, so pardon any accidental liberties taken. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">The Codex d'Annwn</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><p class="text">A searchable D&D 5e homebrew spell list, sorted by class and level.</p></li>
+          <li><a href="mailto:"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <p>Dr. <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> tempts fickle fate in his pursuit of the <a href="https://www.sublimetext.com/" target="_blank">sublime</a>.</p>
+      </div>
+    
+    <div class="footer-col  footer-col-3">
+      <p>Source available on <a href="https://github.com/ArgentDragonsClaw/Codex-d-Annwn/" target="_blank">Github</a>.</p>
+    </div>
+  </div>
+  <div class="footer-top-link"><a href="#top">Back to top &#8593;</a></div>
+
+  </div>
+
+</footer>
+<script>
+  var jets = new Jets({
+    searchTag: '#jetsSearch',
+    contentTag: '.jetsContent',
+    didSearch: function(search_phrase) {
+      var elements = document.getElementsByClassName("jetsHide");
+      if (!search_phrase.trim()) {
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].classList.remove("searchHide");
+        }
+      } else {
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].classList.add("searchHide");
+        }
+      }     
+    }
+  })
+  </script>
+
+
+  </body>
+
+</html>

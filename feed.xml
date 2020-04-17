@@ -1,30 +1,425 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>The Codex d'Annwn</title>
+    <description>A searchable D&amp;D 5e homebrew spell list, sorted by class and level.</description>
+    <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/</link>
+    <atom:link href="https://argentdragonsclaw.github.io/Codex-d-Annwn/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 16 Apr 2020 21:01:45 -0500</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2020 21:01:45 -0500</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Tabit's Mending Melody</title>
+        <description>&lt;p&gt;&lt;strong&gt;2nd-level evocation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: 90 ft&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 minute&lt;/p&gt;
+
+&lt;p&gt;You imbue your voice with healing energies as you sing a simple melody. On your turn, all allied creatures that can hear you heal 4 hp. Creatures cannot benefit from this healing while Deafened, and this healing has no effect on constructs or undead.&lt;/p&gt;
+
+&lt;p&gt;As a bonus action on your turn, you may end your melody early with a flourish, removing the Charmed and Frightened statuses from allied creatures that can hear you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/healing-spirit&quot;&gt;&lt;em&gt;healing spirit&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jan 2020 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/tabits-mending-melody</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/tabits-mending-melody</guid>
+        
+        <category>wizard</category>
+        
+        <category>level2</category>
+        
+        <category>evocation</category>
+        
+        <category>proposed</category>
+        
+        <category>bardic</category>
+        
+        
+        <category>spells</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Ifan's Sanguine Aura</title>
+        <description>&lt;p&gt;&lt;strong&gt;2nd-level enchantment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: Self&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: Concentration, up to 1 minute&lt;/p&gt;
+
+&lt;p&gt;You are surrounded by a 10 foot aura of fine red mist as you cast this spell. On your turn, every hostile creature within the mist loses 3 hit points, healing you for 3 hp. In the presence of blood (for example, &lt;a href=&quot;https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/grave-wardens-mantle&quot;&gt;&lt;em&gt;grave warden’s mantle&lt;/em&gt;&lt;/a&gt;) the damage and healing doubles.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/vampiric-touch&quot;&gt;&lt;em&gt;vampiric touch&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jan 2020 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/ifans-sanguine-aura</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/ifans-sanguine-aura</guid>
+        
+        <category>wizard</category>
+        
+        <category>level2</category>
+        
+        <category>enchantment</category>
+        
+        <category>proposed</category>
+        
+        <category>arcane</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Thorns of the Blood Rose</title>
+        <description>&lt;p&gt;&lt;strong&gt;1st-level conjuration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: 90 ft&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S, C (a dried rose seed)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: Concentration, up to 1 minute&lt;/p&gt;
+
+&lt;p&gt;Thick black stems covered in thorns sprout from the ground, wrapping around up to three creatures within range, which can be no more than 10ft from one another. While covered in thorns, a creature takes an additional 1d6 piercing damage from all attacks as the thorns dig deeper. If a creature dies while covered in thorns, a bright crimson Blood Rose sprouts from their corpse, which remains after the spell ends.&lt;/p&gt;
+
+&lt;p&gt;As an action, a creature affected by the thorns may make a Strength check against your spellcasting DC to break free. If the creature takes fire damage, the thorns burn to ash after dealing damage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/entangle&quot;&gt;&lt;em&gt;entangle&lt;/em&gt;&lt;/a&gt; and &lt;a href=&quot;https://thebombzen.com/grimoire/spells/hunters-mark&quot;&gt;&lt;em&gt;hunter’s mark&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jan 2020 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/thorns-of-the-blood-rose</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/thorns-of-the-blood-rose</guid>
+        
+        <category>wizard</category>
+        
+        <category>level1</category>
+        
+        <category>conjuration</category>
+        
+        <category>tested</category>
+        
+        <category>druidic</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Grave Warden's Mantle</title>
+        <description>&lt;p&gt;&lt;strong&gt;1st-level abjuration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: Touch&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 8 Hours&lt;/p&gt;
+
+&lt;p&gt;You touch a willing creature who isn’t wearing armor, and deal 1d4 piercing damage as you draw blood. The creature’s blood becomes a magical mantle surrounding them.
+The target’s base AC becomes 13 + its Constitution modifier. The spell ends if the target dons armor or if you dismiss the spell as an action.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/mage-armor&quot;&gt;&lt;em&gt;mage armor&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jan 2020 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/grave-wardens-mantle</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/grave-wardens-mantle</guid>
+        
+        <category>wizard</category>
+        
+        <category>level1</category>
+        
+        <category>abjuration</category>
+        
+        <category>untested</category>
+        
+        <category>arcane</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Crawling Chaos</title>
+        <description>&lt;p&gt;&lt;strong&gt;Conjuration cantrip&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 bonus action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: 5 feet&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: Instantaneous&lt;/p&gt;
+
+&lt;p&gt;You release a wave of chaos that burrows through the air around you. Each creature in range, other than you, must make an Intelligence saving throw or take 1d4 psychic damage.&lt;/p&gt;
+
+&lt;p&gt;The spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/sword-burst&quot;&gt;&lt;em&gt;sword burst&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/crawling-chaos</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/crawling-chaos</guid>
+        
+        <category>wizard</category>
+        
+        <category>cantrip</category>
+        
+        <category>conjuration</category>
+        
+        <category>proposed</category>
+        
+        <category>wild</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Ossify</title>
+        <description>&lt;p&gt;&lt;strong&gt;1st-level necromancy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: Touch&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, M (a pinch of bone dust)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: Instantaneous&lt;/p&gt;
+
+&lt;p&gt;Organic materials you touch rapidly ossify, up to half a cubic foot of material. If used on an unwilling target, the target must make a Constitution saving throw.  A target takes 2d10 necrotic damage and on a failed saving throw succumbs to partial ossification.&lt;/p&gt;
+
+&lt;p&gt;This spell does not affect inorganic targets, such as stone or metal, but may conduct along them to organic material within an inch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;At Higher Levels.&lt;/strong&gt; When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/inflict-wounds&quot;&gt;&lt;em&gt;inflict wounds&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/ossify</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/ossify</guid>
+        
+        <category>wizard</category>
+        
+        <category>level1</category>
+        
+        <category>necromancy</category>
+        
+        <category>tested</category>
+        
+        <category>divine</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Morganna's Repast</title>
+        <description>&lt;p&gt;&lt;strong&gt;1st-level conjuration (ritual)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: Self&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;/p&gt;
+
+&lt;p&gt;You create a meal (with optional drink) and the necessary glasses, plates, and silverware to eat it. All objects created by this spell are only able to interact with the caster, and simply pass through other creatures like air. The food and drink have actual nutritional value, but become inedible after one hour, and then vanish back into the void.&lt;/p&gt;
+
+&lt;p&gt;The specific meals and drinks are limited only to the caster’s knowledge of their existence.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: N/A&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/morgannas-repast</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/morgannas-repast</guid>
+        
+        <category>wizard</category>
+        
+        <category>level1</category>
+        
+        <category>conjuration</category>
+        
+        <category>ritual</category>
+        
+        <category>tested</category>
+        
+        <category>arcane</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Morganna's Armoire</title>
+        <description>&lt;p&gt;&lt;strong&gt;2nd-level conjuration (ritual)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: Self&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S, M ( A scrap of silk )&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 hour&lt;/p&gt;
+
+&lt;p&gt;You create an ornate mahogany door that, when opened, leads to an extradimensional space filled with clothing. The clothing contained within the &lt;em&gt;armoire&lt;/em&gt; can be found in every style known to the creatures inside, and will fit any creature that puts them on within the &lt;em&gt;armoire&lt;/em&gt;. The clothes do not contain any accessories of value, such as rings or necklaces, but may contain faux-copies such as a wooden ring painted gold. A creature may have up to two outfits selected from the &lt;em&gt;armoire&lt;/em&gt; at a time, and must return one before choosing another. The clothes themselves are nonmagical other than their creation, and subject to wear and tear as any mundane material.&lt;/p&gt;
+
+&lt;p&gt;If an outfit is ruined beyond repair or lost, it disappates into mist, and the creature is no longer considered to have that outfit. Attempting to sell or otherwise make money off the clothes also causes them to disappate into mist.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: N/A&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/morgannas-armoire</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/morgannas-armoire</guid>
+        
+        <category>wizard</category>
+        
+        <category>level2</category>
+        
+        <category>conjuration</category>
+        
+        <category>ritual</category>
+        
+        <category>tested</category>
+        
+        <category>arcane</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Modulate Magic</title>
+        <description>&lt;p&gt;&lt;strong&gt;Enchantment cantrip&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: Self&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 minute, Concentration&lt;/p&gt;
+
+&lt;p&gt;You make on-the-fly adjustments to your casting process to change the form of other spells you cast. Choose one of the following effects:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spells cast take on a new damage type. Choose from Force, Fire, or Cold.&lt;/li&gt;
+  &lt;li&gt;Spells with an area can be adjusted slightly. You may choose a single creature in the area to not be affected.&lt;/li&gt;
+  &lt;li&gt;Spells with multiple ranged attacks (i.e. &lt;em&gt;magic missile&lt;/em&gt;) become a single condensed ranged attack, and all damage is applied to a single target.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This spell improves at 5th, 11th, and 17th levels as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;5th level
+    &lt;ul&gt;
+      &lt;li&gt;Add Lightning and Acid to the damage types.&lt;/li&gt;
+      &lt;li&gt;You may ignore up to two creatures in area spells.&lt;/li&gt;
+      &lt;li&gt;You may choose not to condense a spell while &lt;em&gt;modulate magic&lt;/em&gt; is in effect.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;11th level
+    &lt;ul&gt;
+      &lt;li&gt;Add Poison and Thunder to the damage types.&lt;/li&gt;
+      &lt;li&gt;You may ignore up to three creatures in area spells.&lt;/li&gt;
+      &lt;li&gt;When condensing a spell, you may choose to remove one of the damage rolls to gain advantage on the attack roll.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;17th level
+    &lt;ul&gt;
+      &lt;li&gt;By spending a 1st level spell slot, remove the concentration attribute of this spell.&lt;/li&gt;
+      &lt;li&gt;Add Radiant and Necrotic to the damage types.&lt;/li&gt;
+      &lt;li&gt;You may ignore up to four creatures in area spells.&lt;/li&gt;
+      &lt;li&gt;When condensing a spell, the damage is as if the spell was casted at one level higher.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: N/A&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/modulate-magic</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/modulate-magic</guid>
+        
+        <category>wizard</category>
+        
+        <category>cantrip</category>
+        
+        <category>enchantment</category>
+        
+        <category>concentration</category>
+        
+        <category>untested</category>
+        
+        <category>arcane</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
+      <item>
+        <title>Minor Annoyance</title>
+        <description>&lt;p&gt;&lt;strong&gt;Enchantment cantrip&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Casting Time&lt;/strong&gt;: 1 action&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Range&lt;/strong&gt;: 30 ft&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Components&lt;/strong&gt;: V, S&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: Varies&lt;/p&gt;
+
+&lt;p&gt;Causes a simple effect that’s mildly annoying. Can target a creature, object, or area. Sample effects include:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A vague smell of something unpleasant&lt;/li&gt;
+  &lt;li&gt;An itch that can’t be satisfied&lt;/li&gt;
+  &lt;li&gt;Making an object slightly too warm or cold to be comfortable&lt;/li&gt;
+  &lt;li&gt;The sound of a mosquito&lt;/li&gt;
+  &lt;li&gt;The feeling of needing to go to the bathroom&lt;/li&gt;
+  &lt;li&gt;An intense awareness of one’s own tongue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This spell’s base duration is up to one minute, and can be cancelled by the caster at any time. This increases to 10 minutes at 5th level, an hour at 11th level, and a day at 17th level.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most Similar Spell(s)&lt;/strong&gt;: &lt;a href=&quot;https://thebombzen.com/grimoire/spells/prestidigitation&quot;&gt;&lt;em&gt;prestidigitation&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0600</pubDate>
+        <link>https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/minor-annoyance</link>
+        <guid isPermaLink="true">https://argentdragonsclaw.github.io/Codex-d-Annwn/spells/minor-annoyance</guid>
+        
+        <category>wizard</category>
+        
+        <category>cantrip</category>
+        
+        <category>enchantment</category>
+        
+        <category>finalized</category>
+        
+        <category>arcane</category>
+        
+        
+        <category>spells</category>
+        
+      </item>
+    
   </channel>
 </rss>
